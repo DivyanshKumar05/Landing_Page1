@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+.container{
+    position: absolute;
+    height:100%;
+    width:100%;
+    background-color:black;
+}
+
+.LandingPage .bcg_img{
+    position: absolute;
+}
+
+.nav_bar{
+    position: absolute;
+    height: 100px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 17%;
+}
+
+nav .left{ 
+    position: absolute;
+    left: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+}
+nav .left h4{ 
+    line-height: 17px;
+    font-weight: 400;
+    color: white;
+}
+nav .left h2{
+    color: white;
+}
+
+nav .right{
+    width: 65%;
+}
+nav .right ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav .right ul li{
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 99;
+    overflow: hidden;
+}
+nav .right ul li a{
+    overflow: hidden;
+    z-index: 99;
+    position: relative;
+}
+
+
+.heading{
+    position: absolute;
+    color: white;
+    font-size: 3vw;
+    height: 20%;
+    width: 70%;
+    left: 16.5%;
+    top: 19%;
+}
+.para{
+    position: absolute;
+    color: white;
+    left: 16.5%;
+    top: 55%;
+    width: 45%;
+}
+.button{
+    position: absolute;
+    left: 16.5%;
+    top: 73%;
+}
+.button button{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(252, 174, 29);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+
+nav .right ul li a:hover{
+    cursor: grab;
+}
+.button button:hover{
+    cursor: pointer;
+}
